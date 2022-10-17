@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_BosLayout";
+}
+<h1>Kayıt Ol</h1>
+<form method="post">
+    <div class="row bg-secondary">
+         <div class="col"></div>
+        <div class="col-6  ">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"> Adı ve Soyadı</label>
+                <input type="text" class="form-control" id="AdiSoyadi" name="AdiSoyadi" placeholder="Adı ve Soyadı">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Kullanıcı Adı</label>
+                <input type="text" class="form-control" id="KullaniciAdi" name="KullaniciAdi" placeholder="Kullanıcı Adı">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Şifre</label>
+                <input type="password" class="form-control" id="sifre" name="sifre" placeholder="Şifre">
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+</form>
