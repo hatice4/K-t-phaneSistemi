@@ -9,7 +9,7 @@ namespace KütüphaneSistemi.Controllers
     {
 
         public IActionResult Index()
-        {
+        {//fgfg
             return View();
         }
         [HttpPost]
